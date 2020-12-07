@@ -1,0 +1,14 @@
+1 - начало игры
+node index.js
+или
+npm start
+
+2 - выдает игровую статистику
+node stat.js
+или
+npm run stat
+
+3 - очищаем статистику
+node clear.js
+или
+npm run clear

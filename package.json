@@ -1,20 +1,18 @@
 {
-    "name": "lesson1",
+    "name": "lesson2",
     "version": "1.0.0",
-    "main": "hello-npm.js",
+    "description": "",
+    "main": "index.js",
     "scripts": {
-        "ink-react": "node hello-npm.js",
-        "auto-launch": "node hello-npm.js",
-        "ansi": "node hello-npm.js",
-        "serve": "npx nodemon server.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "stat": "node stat.js",
+        "clear": "node clear.js"
     },
+    "keywords": [],
     "author": "",
     "license": "ISC",
-    "keywords": [],
-    "description": "",
     "dependencies": {
-        "ansi": "^0.3.1",
-        "auto-launch": "^5.0.5"
+        "minimist": "^1.2.5"
     }
 }
